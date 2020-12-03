@@ -1,0 +1,1 @@
+cmd_/home/greg/Documents/chr/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/greg/Documents/chr/hello.ko /home/greg/Documents/chr/hello.o /home/greg/Documents/chr/hello.mod.o;  true
